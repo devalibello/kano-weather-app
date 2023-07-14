@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-container {
+  padding: 15px;
+  max-width: 480px;
+}
+
+.kano-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.kano-map {
+  width: 170px;
+}
+
+.coordinates,
+.weather,
+.temperature,
+.wind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-coordinates {
+  width: 190px;
+}
+
+.picture-weather {
+  width: 130px;
+}
+
+.picture-temperature {
+  width: 160px;
+  margin-top: 10px;
+}
+
+.picture-wind {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.coordinate-text,
+.weather-text,
+.temperature-text,
+.wind-text {
+  font-size: 1.5rem;
+}
+
+.kano-details {
+  display: flex;
+
+  /* gap: 30px; */
+
+  /* max-width: 480px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.kano-stats {
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+.live-data-text {
+  color: rgb(5, 151, 235);
+  font-size: 1.2rem;
+}
