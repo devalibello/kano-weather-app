@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/Main';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Coordinates from './components/Coordinates';
 import Temperature from './components/Temperature';
 import Weather from './components/Weather';
@@ -10,7 +10,7 @@ import Wind from './components/Wind';
 const App = () => (
   <div>
     <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route exact path="/" Component={Main} />
         <Route path="/coordinates" Component={Coordinates} />
