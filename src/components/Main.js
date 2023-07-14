@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { getWeather } from '../redux/main/mainSlice';
 import '../styles/Main.css';
-import Navbar from './Navbar';
 
 const Main = () => {
   const dispatch = useDispatch();
@@ -14,7 +13,6 @@ const Main = () => {
 
   return (
     <>
-      <Navbar />
       <div className="main-container">
         <div className="kano-main">
           <img className="kano-map" src="https://png.pngitem.com/pimgs/s/435-4356354_map-of-africa-illustration-hd-png-download.png" alt="" />
