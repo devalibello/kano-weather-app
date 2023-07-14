@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kano-weather-app/static/css/main.de0bd8fd.css",
+    "main.js": "/kano-weather-app/static/js/main.86bf4e3a.js",
+    "index.html": "/kano-weather-app/index.html",
+    "main.de0bd8fd.css.map": "/kano-weather-app/static/css/main.de0bd8fd.css.map",
+    "main.86bf4e3a.js.map": "/kano-weather-app/static/js/main.86bf4e3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de0bd8fd.css",
+    "static/js/main.86bf4e3a.js"
+  ]
+}
