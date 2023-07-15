@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import { FaChevronLeft } from 'react-icons/fa';
-import '../styles/Navbar.css';
+import '../../styles/Navbar.css';
 
 const Navbar = () => (
   <ul className="nav-items">

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getWeather } from '../redux/main/mainSlice';
-import '../styles/Temperature.css';
+import { getWeather } from '../../redux/main/mainSlice';
+import '../../styles/Temperature.css';
 
 const Temperature = () => {
   const kano = useSelector((state) => state.main.data);

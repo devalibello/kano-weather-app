@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getWeather } from '../redux/main/mainSlice';
-import '../styles/Weather.css';
+import { getWeather } from '../../redux/main/mainSlice';
+import '../../styles/Wind.css';
 
-const Weather = () => {
+const Wind = () => {
   const kano = useSelector((state) => state.main.data);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -13,7 +13,7 @@ const Weather = () => {
   return (
     <>
       <div className="coordinate-main">
-        <img className="kano-map" src="https://png.pngitem.com/pimgs/s/474-4748242_2000px-weather-sun-clouds-hard-shower-weather-symbols.png" alt="" />
+        <img className="kano-map" src="https://www.pngitem.com/pimgs/m/10-109358_windy-symbol-weather-wind-png-transparent-png.png" alt="" />
         <h2 className="kano-stats">
           KANO
           {' '}
@@ -23,26 +23,26 @@ const Weather = () => {
           {' '}
           <br />
           {' '}
-          WEATHER
+          WIND
           {' '}
           <br />
           STATISTICS
         </h2>
       </div>
-      <div className="temperature-container">
+      <div className="wind-container">
         <div>
-          {kano.weather ? (
-            <li className="weather-values">
-              Weather Condition:&nbsp;
-              {kano.weather[0].main}
+          {kano.wind ? (
+            <li className="wind-values">
+              Wind Speed:&nbsp;
+              {kano.wind.speed}
             </li>
           ) : null}
         </div>
         <div>
-          {kano.weather ? (
-            <li className="weather-values">
-              Weather Description:&nbsp;
-              {kano.weather[0].description}
+          {kano.wind ? (
+            <li className="wind-values">
+              Wind Deg:&nbsp;
+              {kano.wind.deg}
             </li>
           ) : null}
         </div>
@@ -51,4 +51,4 @@ const Weather = () => {
   );
 };
 
-export default Weather;
+export default Wind;

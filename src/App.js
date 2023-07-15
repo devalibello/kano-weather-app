@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Main from './components/Main';
-import Navbar from './components/Navbar';
-import Coordinates from './components/Coordinates';
-import Temperature from './components/Temperature';
-import Weather from './components/Weather';
-import Wind from './components/Wind';
+import Main from './components/Homepage/Main';
+import Navbar from './components/Homepage/Navbar';
+import Coordinates from './components/Detailspage/Coordinates';
+import Temperature from './components/Detailspage/Temperature';
+import Weather from './components/Detailspage/Weather';
+import Wind from './components/Detailspage/Wind';
 
 const App = () => (
   <div>

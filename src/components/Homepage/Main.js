@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { getWeather } from '../redux/main/mainSlice';
-import '../styles/Main.css';
+import { getWeather } from '../../redux/main/mainSlice';
+import '../../styles/Main.css';
 
 const Main = () => {
   const dispatch = useDispatch();
