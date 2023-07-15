@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: calibri, sans-serif;
+}
+
+.coordinate-values {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 7px;
+  background-color: rgb(103, 115, 124);
+  color: white;
+  font-size: 1.1rem;
+  font-family: calibri, sans-serif;
+}
+
+.coordinate-main {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
