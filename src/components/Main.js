@@ -74,7 +74,7 @@ const Main = () => {
 
         <hr />
         <div className="search-section">
-          <p className="search-text">Search For Weather Category</p>
+          <p className="search-text">Search Category</p>
           <div className="search-bar">
             <input
               type="text"
