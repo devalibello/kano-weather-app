@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { getWeather } from '../../redux/main/mainSlice';
+import coordinatesImage from '../../assets/coordinates.png';
+import temperatureImage from '../../assets/temperature.png';
+import windImage from '../../assets/wind.png';
+import weatherImage from '../../assets/weather.png';
+import kanoImage from '../../assets/kano.png';
 import '../../styles/Main.css';
 
 const Main = () => {
@@ -20,28 +25,28 @@ const Main = () => {
     {
       id: 'coordinates',
       link: '/coordinates',
-      imageSrc: 'https://png.pngitem.com/pimgs/s/265-2652205_google-maps-icon-3d-hd-png-download.png',
+      imageSrc: coordinatesImage,
       text: 'Coordinate',
       itemCount: '2 items',
     },
     {
       id: 'weather',
       link: '/weather',
-      imageSrc: 'https://png.pngitem.com/pimgs/s/474-4748242_2000px-weather-sun-clouds-hard-shower-weather-symbols.png',
+      imageSrc: weatherImage,
       text: 'Weather',
       itemCount: '2 items',
     },
     {
       id: 'temperature',
       link: '/temperature',
-      imageSrc: 'https://www.pngitem.com/pimgs/m/325-3255572_cloud-sun-weather-weather-forecast-hd-png-download.png',
+      imageSrc: temperatureImage,
       text: 'Temperature',
       itemCount: '6 items',
     },
     {
       id: 'wind',
       link: '/wind',
-      imageSrc: 'https://www.pngitem.com/pimgs/m/10-109358_windy-symbol-weather-wind-png-transparent-png.png',
+      imageSrc: windImage,
       text: 'Wind',
       itemCount: '2 items',
     },
@@ -56,7 +61,7 @@ const Main = () => {
         <div className="kano-main">
           <img
             className="kano-map"
-            src="https://png.pngitem.com/pimgs/s/435-4356354_map-of-africa-illustration-hd-png-download.png"
+            src={kanoImage}
             alt=""
           />
           <h2 className="kano-stats">

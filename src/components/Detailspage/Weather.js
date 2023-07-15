@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getWeather } from '../../redux/main/mainSlice';
+import weatherImage from '../../assets/weather.png';
 import '../../styles/Weather.css';
 
 const Weather = () => {
@@ -13,7 +14,7 @@ const Weather = () => {
   return (
     <>
       <div className="coordinate-main">
-        <img className="kano-map" src="https://png.pngitem.com/pimgs/s/474-4748242_2000px-weather-sun-clouds-hard-shower-weather-symbols.png" alt="" />
+        <img className="kano-map" src={weatherImage} alt="" />
         <h2 className="kano-stats">
           KANO
           {' '}

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Homepage/Navbar';
 import '@testing-library/jest-dom';
 
 describe('Navbar', () => {

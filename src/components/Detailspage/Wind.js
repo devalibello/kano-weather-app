@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getWeather } from '../../redux/main/mainSlice';
+import windImage from '../../assets/wind.png';
 import '../../styles/Wind.css';
 
 const Wind = () => {
@@ -13,7 +14,7 @@ const Wind = () => {
   return (
     <>
       <div className="coordinate-main">
-        <img className="kano-map" src="https://www.pngitem.com/pimgs/m/10-109358_windy-symbol-weather-wind-png-transparent-png.png" alt="" />
+        <img className="kano-map" src={windImage} alt="" />
         <h2 className="kano-stats">
           KANO
           {' '}
