@@ -73,14 +73,16 @@ const Main = () => {
         </div>
 
         <hr />
-
-        <div className="search-bar">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={handleSearch}
-          />
+        <div className="search-section">
+          <p className="search-text">Search For Weather Category</p>
+          <div className="search-bar">
+            <input
+              type="text"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={handleSearch}
+            />
+          </div>
         </div>
 
         <div className="kano-details">

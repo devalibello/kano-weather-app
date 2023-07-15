@@ -73,10 +73,15 @@
   font-size: 1.2rem;
 }
 
-.search-bar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  margin-left: 40px;
-  margin-top: 6px;
+.search-section {
+  display: flex;
+  background-color: rgb(103, 115, 124);
+  padding: 7px;
+  justify-content: space-between;
+}
+
+.search-text {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
 }
