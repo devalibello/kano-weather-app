@@ -90,7 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Presentation <a name="presentation"></a>
 
-Click for presentation [Kano Weather Application Presentation](https://www.loom.com/share/557c3d4066074f15b4021e9503fc7f3c).
+Click for presentation [Kano Weather Application Presentation](https://www.loom.com/share/41db4598a0b4441898e4a36572bec6a9?sid=53bd2f07-fc88-4ec8-8aac-cde631e599a3).
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
