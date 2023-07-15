@@ -9,7 +9,6 @@
 
 // export default store;
 
-
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import mainReducer from './main/mainSlice';

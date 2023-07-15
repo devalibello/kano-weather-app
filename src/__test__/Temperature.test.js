@@ -2,12 +2,12 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
 import Temperature from '../components/Detailspage/Temperature';
-import thunk from 'redux-thunk'
 import '@testing-library/jest-dom';
 
-const middlewares = [thunk]
-const mockStore = configureMockStore(middlewares)
+const middlewares = [thunk];
+const mockStore = configureMockStore(middlewares);
 
 describe('Temperature component', () => {
   it('should render the component with correct data', () => {
@@ -31,7 +31,7 @@ describe('Temperature component', () => {
     render(
       <Provider store={store}>
         <Temperature />
-      </Provider>
+      </Provider>,
     );
 
     expect(screen.getByTestId('kano2')).toBeInTheDocument();
