@@ -16,18 +16,18 @@ const Temperature = () => {
       <div className="coordinate-main">
         <img className="kano-map" src={temperatureImage} alt="" />
         <h2 className="kano-stats">
-          KANO
+          <span data-testid="kano2">KANO</span>
           {' '}
           <br />
           {' '}
-          STATE
+          <span data-testid="state2">STATE</span>
           {' '}
           <br />
           {' '}
-          TEMPERATURE
+          <span data-testid="temp">TEMPERATURE</span>
           {' '}
           <br />
-          STATISTICS
+          <span data-testid="stat2">STATISTICS</span>
         </h2>
       </div>
       <div className="temperature-container">

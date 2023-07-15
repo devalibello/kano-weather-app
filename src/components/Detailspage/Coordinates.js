@@ -16,18 +16,18 @@ const Coordinates = () => {
       <div className="coordinate-main">
         <img className="kano-map" src={coordinatesImage} alt="" />
         <h2 className="kano-stats">
-          KANO
+          <span data-testid="kano1">KANO</span>
           {' '}
           <br />
           {' '}
-          STATE
+          <span data-testid="state1">STATE</span>
           {' '}
           <br />
           {' '}
-          COORDINATE
+          <span data-testid="coord">COORDINATE</span>
           {' '}
           <br />
-          STATISTICS
+          <span data-testid="stat1">STATISTICS</span>
         </h2>
       </div>
       <div className="coordinates-container">

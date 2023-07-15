@@ -16,25 +16,25 @@ const Wind = () => {
       <div className="coordinate-main">
         <img className="kano-map" src={windImage} alt="" />
         <h2 className="kano-stats">
-          KANO
+          <span data-testid="kano4">KANO</span>
           {' '}
           <br />
           {' '}
-          STATE
+          <span data-testid="state4">STATE</span>
           {' '}
           <br />
           {' '}
-          WIND
+          <span data-testid="wind">WIND</span>
           {' '}
           <br />
-          STATISTICS
+          <span data-testid="stat4">STATISTICS</span>
         </h2>
       </div>
       <div className="wind-container">
         <div>
           {kano.wind ? (
             <li className="wind-values">
-              Wind Speed:&nbsp;
+              Speed:&nbsp;
               {kano.wind.speed}
             </li>
           ) : null}
@@ -42,7 +42,7 @@ const Wind = () => {
         <div>
           {kano.wind ? (
             <li className="wind-values">
-              Wind Deg:&nbsp;
+              Degree:&nbsp;
               {kano.wind.deg}
             </li>
           ) : null}

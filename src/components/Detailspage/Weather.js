@@ -16,25 +16,25 @@ const Weather = () => {
       <div className="coordinate-main">
         <img className="kano-map" src={weatherImage} alt="" />
         <h2 className="kano-stats">
-          KANO
+          <span data-testid="kano3">KANO</span>
           {' '}
           <br />
           {' '}
-          STATE
+          <span data-testid="state3">STATE</span>
           {' '}
           <br />
           {' '}
-          WEATHER
+          <span data-testid="weather">WEATHER</span>
           {' '}
           <br />
-          STATISTICS
+          <span data-testid="stat3">STATISTICS</span>
         </h2>
       </div>
       <div className="temperature-container">
         <div>
           {kano.weather ? (
             <li className="weather-values">
-              Weather Condition:&nbsp;
+              Condition:&nbsp;
               {kano.weather[0].main}
             </li>
           ) : null}
@@ -42,7 +42,7 @@ const Weather = () => {
         <div>
           {kano.weather ? (
             <li className="weather-values">
-              Weather Description:&nbsp;
+              Description:&nbsp;
               {kano.weather[0].description}
             </li>
           ) : null}
