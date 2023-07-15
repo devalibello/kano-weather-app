@@ -52,4 +52,11 @@ const Coordinates = () => {
   );
 };
 
+// const Coordinates = () => {
+//    return(
+//      <h2>Coordinates</h2>
+//    )
+  
+//  }
+
 export default Coordinates;
