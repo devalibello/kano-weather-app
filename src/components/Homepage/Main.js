@@ -70,7 +70,7 @@ const Main = () => {
             <br />
             STATISTICS
             <br />
-            <span className="live-data-text">12 live data</span>
+            <span className="live-data-text">12 LIVE DATA</span>
           </h2>
         </div>
 

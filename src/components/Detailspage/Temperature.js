@@ -36,6 +36,7 @@ const Temperature = () => {
             <li className="temperature-values">
               Temperature:&nbsp;
               {kano.main.temp}
+              &nbsp;&#8457;
             </li>
           ) : null}
         </div>
@@ -44,6 +45,7 @@ const Temperature = () => {
             <li className="temperature-values">
               Feels Like:&nbsp;
               {kano.main.feels_like}
+              &nbsp;&#8457;
             </li>
           ) : null}
         </div>
@@ -52,6 +54,7 @@ const Temperature = () => {
             <li className="temperature-values">
               Minimum Temperature:&nbsp;
               {kano.main.temp_min}
+              &nbsp;&#8457;
             </li>
           ) : null}
         </div>
@@ -60,6 +63,7 @@ const Temperature = () => {
             <li className="temperature-values">
               Maximum Temperature:&nbsp;
               {kano.main.temp_max}
+              &nbsp;&#8457;
             </li>
           ) : null}
         </div>
